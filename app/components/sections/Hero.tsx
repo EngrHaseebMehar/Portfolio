@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-
+import Image from "next/image";
 export default function Hero() {
   return (
     <motion.section
@@ -73,11 +73,13 @@ export default function Hero() {
           }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <img
-            src="/image.jpg"
-            alt="Muhammad Haseeb"
-            className="w-64 md:w-80 rounded-full shadow-2xl object-cover"
-          />
+        <Image
+  src="/image.jpg"
+  alt="Muhammad Haseeb"
+  width={320} // w-80 ka approx (80 * 4 = 320px)
+  height={320} // square assume kiya hai (same height as width)
+  className="w-64 md:w-80 rounded-full shadow-2xl object-cover"
+/>
         </motion.div>
       </motion.div>
     </motion.section>

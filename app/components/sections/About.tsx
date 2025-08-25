@@ -42,7 +42,7 @@ export default function About() {
         transition={{ duration: 0.7, ease: "easeOut", delay: 0.6 }}
         viewport={{ once: true }}
       >
-        I enjoy turning complex problems into simple, elegant solutions. When I'm not coding, I
+        I enjoy turning complex problems into simple, elegant solutions. When I am not coding, I
         love exploring new web technologies, contributing to open-source projects, and
         improving my skills in UI/UX design.
       </motion.p>
